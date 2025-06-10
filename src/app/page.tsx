@@ -5,6 +5,11 @@ import { Input } from "@/components/ui/input";
 import { useState } from "react";
 import { authClient } from "@/lib/auth-client";
 
+/**
+ * Renders the home page with user authentication functionality.
+ *
+ * Displays the current user's name and a sign-out button if a session exists. Otherwise, provides forms for user registration and login using email and password.
+ */
 export default function Home() {
 
   const { 
